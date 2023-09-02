@@ -56,6 +56,47 @@ This is the target variable. A value of 0 indicates less than 50% diameter narro
 
 ![image](https://github.com/yahyamomtaz/Heart-Attack-Analysis-and-Prediction/assets/95857657/fd5df7e8-9810-416e-9211-d4e28aca9f5c)
 
+![image](https://github.com/yahyamomtaz/Heart-Attack-Analysis-and-Prediction/assets/95857657/563886db-b041-4b45-beb1-b1880714f75b)
+
+![image](https://github.com/yahyamomtaz/Heart-Attack-Analysis-and-Prediction/assets/95857657/4cc6911c-2543-4827-9469-b3e5ae7c47c8)
 
 
+**Describe the outcome:**
+
+Patients who have chest pain have a higher risk of developing heart disease. This statement aligns with medical knowledge. Chest pain, especially if it occurs during physical exertion (such as exercise-induced angina), can be a significant symptom of coronary artery disease (CAD) or other heart-related conditions. Chest pain may indicate that the heart is not receiving an adequate blood supply, which can be a warning sign of heart disease.
+
+An increased chance of heart disease is linked to a high maximum heart rate obtained during testing. A high maximum heart rate during exercise testing can be indicative of an increased risk of heart disease. It may suggest that the heart is under stress during physical activity and may not be functioning optimally. However, this should be interpreted in the context of the individual's age, fitness level, and other clinical factors. A high maximum heart rate alone is not a definitive indicator of heart disease but can be a valuable diagnostic clue.
+
+patients who have downsloping peak exercise are more linked to the heart diseases. The term "downsloping peak exercise" typically refers to certain patterns observed on an electrocardiogram (ECG or EKG) during exercise stress testing. These patterns can sometimes be associated with an increased risk of heart disease, particularly coronary artery disease. They may indicate abnormal electrical activity or blood flow in the heart during physical exertion.
+
+Individuals who experience exercise-induced angina(exang) may have a reduced risk of heart disease compared to those who do not experience this symptom during exercise. Exercise-induced angina is typically a symptom of coronary artery disease (CAD) or reduced blood flow to the heart muscle during physical exertion. it's(exang) negatively correlated with heart disease in dataset, it might indicate that this symptom is acting as a protective factor or an early warning sign for individuals, leading to earlier diagnosis and management of heart-related conditions.
+
+There is a negative correlation between ST Depression Induced by Exercise Relative to Rest(oldpeak) and heart disease in dataset, it implies that as the magnitude of ST depression induced by exercise relative to rest increases, the risk of heart disease tends to decrease, and vice versa. However, interpreting this correlation requires caution and consideration of other factors. ST depression during exercise, often seen on an electrocardiogram (ECG or EKG), can sometimes be a sign of cardiac ischemia or insufficient blood flow to the heart muscle during physical exertion. In many cases, ST depression can be indicative of underlying heart problems.
+
+**Classification**
+
+We are going through to build and evaluate 4 different machine learning models (Decision Tree, Support Vector Machine - SVM, Logistic Regression, and k-Nearest Neighbors - k-NN) for our dataset in the following steps:
+
+1. Data Preprocessing
+2. Model Building
+3. Model Evaluation
+4. Model Comparison
+5. Conclusion
+
+![image](https://github.com/yahyamomtaz/Heart-Attack-Analysis-and-Prediction/assets/95857657/26fb8653-46d2-4387-8d9d-a8c7a4e02f5d)
+
+**Conclusion**
+
+**Decision Tree:** The Decision Tree model exhibits solid performance with an accuracy of approximately 88.21% on the training set and 85.71% on the test set. It demonstrates its ability to generalize to unseen data while maintaining a high level of accuracy.
+
+**SVM:** The Support Vector Machine (SVM) model shows promising results, achieving an accuracy of approximately 85.54% on the training set and an even better 90.16% on the test set. Additionally, the model's F1-score and Jaccard score are both strong, indicating a robust ability to classify cases accurately.
+
+**Logistic Regression:** Logistic Regression performs well with an accuracy of around 86.79% on the training set. However, its accuracy slightly drops to 80.22% on the test set. The F1-score and Jaccard score, though slightly lower than SVM, suggest that it still provides reasonable predictive capabilities.
+
+**K-Nearest Neighbors (KNN):** The KNN model achieves an accuracy of approximately 85.12% on the training set and maintains a consistent performance on the test set with an accuracy of 85.25%. This demonstrates the model's stability and reliability in classifying instances.
+
+In summary, each model shows promise in its ability to predict heart disease. SVM appears to be the top performer in terms of accuracy, F1-score, and Jaccard score on the test set. However, the Decision Tree, Logistic Regression, and KNN models also provide respectable results. The choice of the best model may depend on various factors, including the specific requirements of our application and the trade-offs between different evaluation metrics. Further fine-tuning and validation may help in making a final model selection.
+
+
+For more details open .ipynb file
 
